@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Health Audit NZ</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Health Audit NZ Ltd is recognised as a leading provider of auditing and certification services in the health and disability sector.">
+    <link rel="canonical" href="http://hanz.kiwi/standards/">
+
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href=" /style.css ">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href=" /css/font-awesome/css/font-awesome.min.css ">
+    <link href='http://fonts.googleapis.com/css?family=Rambla:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,100,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Header Changer -->
+    <!-- jQuery Version 1.11.0 -->
+<script src=" /js/jquery-1.11.0.js "></script>
+<script>
+    $(document).ready(function () {
+        var header = $('header');
+
+        var backgrounds = new Array(
+            'url(../img/background/1.jpg)', 'url(../img/background/2.jpg)', 'url(../img/background/3.jpg)');
+//, 'url(../img/background/2.jpg)'
+        var current = 0;
+
+        function nextBackground() {
+            current++;
+            current = current % backgrounds.length;
+            header.css('background-image', backgrounds[current]);
+        }
+        setInterval(nextBackground, 5000);
+
+        header.css('background-image', backgrounds[0]);
+    });
+</script>
+<script>
+    (function (jQuery) {
+        var matched,
+            userAgent = navigator.userAgent || "";
+
+        // Use of jQuery.browser is frowned upon.
+        // More details: http://api.jquery.com/jQuery.browser
+        // jQuery.uaMatch maintained for back-compat
+        jQuery.uaMatch = function (ua) {
+            ua = ua.toLowerCase();
+
+            var match = /(chrome)[ \/]([\w.]+)/.exec(ua) ||
+                /(webkit)[ \/]([\w.]+)/.exec(ua) ||
+                /(opera)(?:.*version)?[ \/]([\w.]+)/.exec(ua) ||
+                /(msie) ([\w.]+)/.exec(ua) ||
+                ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+))?/.exec(ua) || [];
+
+            return {
+                browser: match[1] || "",
+                version: match[2] || "0"
+            };
+        };
+
+        matched = jQuery.uaMatch(userAgent);
+
+        jQuery.browser = {};
+
+        if (matched.browser) {
+            jQuery.browser[matched.browser] = true;
+            jQuery.browser.version = matched.version;
+        }
+
+        // Deprecated, use jQuery.browser.webkit instead
+        // Maintained for back-compat only
+        if (jQuery.browser.webkit) {
+            jQuery.browser.safari = true;
+        }
+
+    }(jQuery));
+</script>
+</head>
+
+
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top hanzcolour">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="page-scroll" href="#page-top">
+                <div class="logo light-logo"></div>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="../#aboutus">About Us</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="../#process">Our Process</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="../#businesses">Businesses</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="../standards">Standards</a>
+                </li>
+
+                <li>
+                    <a class="page-scroll" href="../#team">Team</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="../#contact">Contact Us</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="../training">Training</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+    <div role="main" class="main">
+    <section class="page-top" style="padding-bottom: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a>
+                        </li>
+                        <li class="active">Standards</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Standards</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h2>Standards we
+      <strong>Audit</strong>
+    </h2>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="lead">
+                    These are the major standards we audit in New Zealand - If you have specific requirements that are not indicated below, please contact us as we may still be able to assist.
+                    <br> Click on the standards below for additional details
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          ISO 9001:2008 - Quality Management Systems – Requirements
+        </a>
+      </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        ISO 9001 is a fully generic standard for all kinds of services and is used throughout the world as an auditing and certification standard. ISO 9001 is particularly appropriate for healthcare provider organisations that deliver a wide and diverse range of services. This standard serves as a platform on which an organisation can build its quality management system in combination with service-specific standards such as those described previously.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+NZS 8134:2008 - Health &amp; Disability Services Standard        </a>
+      </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        NZS 8134 is the generic quality and risk management standard for the New Zealand health and disability sector. NZS 8134 is used by a wide range of services including hospitals and residential care. As a Designated Auditing Agency, Health Audit NZ Ltd audits providers against NZS 8134 for certification for the purposes of the Health and Disability Services (Safety) Act. Other providers who do not fall under the safety regime also use NZS 8134 as a certification standard. The standard is suitable for provider organisations that deliver a variety of healthcare services.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+NZS 8151:2004 - Accident &amp; Medical Clinic Standard        </a>
+      </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        NZS 8151 is one of the sector standards that are aligned with NZS 8134. NZS 8151 sets out the quality requirements for the provision of accident and medical clinic services. These services are defined as primary care services that are episodic with a no-appointments system. Health Audit NZ Ltd is approved by the Royal College of Urgent Care (RNZCUC) as a NZS 8151 auditing and certification agency. Health Audit NZ Ltd also meets the ACC accreditation requirements for this auditing and certification service </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          NZS 8157:2003 - Alcohol &amp; Other Drug Treatment Sector Standard
+        </a>
+      </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
+                        NZS 8157 is a sector standard for providers offering treatment and support to people with alcohol and other drug addiction problems. The standard can be used alone for auditing and certification purposes by a specialist alcohol and addiction providers. Alternatively, larger and more complex provider organisations can use NZS 8157 in conjunction with other quality and risk management system standards. </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          NZS 8158:2012 - Home &amp; Community Support Sector Standard
+        </a>
+      </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
+                        NZS 8158 is a sector standard for providers offering home and community support services to a wide range of people. Consumers include people with long-term support needs including physical disability, mental illness and chronic medical needs. NZS 8158 also addresses the requirements for services to people with short-term needs such as following discharge from hospital or following referral from a primary health service </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          NZS 8164:2005 - Day-Stay Surgery &amp; Procedures Standard
+        </a>
+      </h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                        NZS 8164 is a sector standard that focuses on the needs of patients undergoing day-stay and rooms/office-based surgery and procedures. This standard is used by organisations and facilities that provide surgery and procedures, and may use a theatre or a surgical unit. </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                    <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          NZS 8165:2005 - Office/Rooms-Based Surgery and Procedures Standard
+        </a>
+      </h4>
+                </div>
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                    <div class="panel-body">
+                        NZS 8165 is a sector standard that focuses on the needs of patients undergoing day-stay and rooms/office-based surgery and procedures. This standard is used by organisations and facilities that provide surgery and procedures, and may use a theatre or a surgical unit. </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <footer class="hanzcolour">
+	<hr>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<span class="copyright">Copyright &copy; Health Audit NZ 2015</span>
+				<br>
+				<span class="copyright">Subsidiary of <a href="http://healthauditgroup.com">Health Audit Group</a></span>
+
+			</div>
+			<div class="col-md-8">
+				<h5>Contact Us</h5>
+				<ul class="list-unstyled">
+					<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 24 Fusion Road, Flat Bush, Auckland 2016</li>
+					<li><i class="fa fa-phone"></i> <strong>Phone:</strong> 0800 4 AUDIT (<a style="color:white" href="tel:0800428348">0800 428 348</a>)</li>
+					<li><i class="fa fa-phone"></i> <strong>Phone:</strong> <a style="color:white" href="tel:+6492743525">(09) 274 3525 </a>
+					</li>
+					<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a style="color:white" href="mailto:enquiries@hanz.kiwi">enquiries@hanz.kiwi</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+</footer>
+    <div class="modal fade" id="gapanalysis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="text-align:left; width:40%; height:30%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Gap Analysis</h4>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>This assesses the readiness of your quailty and risk management systems and greatly helps in the planning and preparation for a subsequent certification audit.</li>
+                    <li> A gap analysis involves an on-site review by a Health Audit NZ lead auditor with your management and staff members.</li>
+                    <li>The auditor samples documentation and interviews personnel in order to gather information about how the management system addresses the requirements of the certification standards.</li>
+                    <li> Documentation reviewed during the gap analysis includes organisational and health service policy and procedures and also records of clients, staff members and service delivery.
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="certaudit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Certification Audit</h4>
+            </div>
+            <div class="modal-body">
+                <img src="/img/process/certaudit.svg" alt="" width="100%" /> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="survaudit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Surveillance Audit</h4>
+            </div>
+            <div class="modal-body">
+                <img src="/img/process/survaudit.svg" alt="" width="100%" /> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="kaupapamaori" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Kaupapa Maori</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>ISO 9001:2008 Quality Management Systems – Requirements</h2> ISO 9001 is a fully generic standard for all kinds of services and is used throughout the world as an auditing and certification standard. ISO 9001 is particularly appropriate for healthcare provider organisations that deliver a wide and diverse range of services. This standard serves as a platform on which an organisation can build its quality management system in combination with service-specific standards such as those described previously.
+
+                <h2>NZS 8157:2003 Alcohol & Other Drug Treatment Sector Standard</h2> NZS 8157 is a sector standard for providers offering treatment and support to people with alcohol and other drug addiction problems. The standard can be used alone for auditing and certification purposes by a specialist alcohol and addiction providers. Alternatively, larger and more complex provider organisations can use NZS 8157 in conjunction with other quality and risk management system standards.
+
+                <h2>NZS 8134:2008 Health & Disability Services Standard</h2> NZS 8134 is the generic quality and risk management standard for the New Zealand health and disability sector. NZS 8134 is used by a wide range of services including hospitals and residential care. As a Designated Auditing Agency, Health Audit NZ Ltd audits providers against NZS 8134 for certification for the purposes of the Health and Disability Services (Safety) Act. Other providers who do not fall under the safety regime also use NZS 8134 as a certification standard. The standard is suitable for provider organisations that deliver a variety of healthcare services.
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="resthomes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Rest Homes</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8134:2008 Health & Disability Services Standard</h2> NZS 8134 is the generic quality and risk management standard for the New Zealand health and disability sector. NZS 8134 is used by a wide range of services including hospitals and residential care. As a Designated Auditing Agency, Health Audit NZ Ltd audits providers against NZS 8134 for certification for the purposes of the Health and Disability Services (Safety) Act. Other providers who do not fall under the safety regime also use NZS 8134 as a certification standard. The standard is suitable for provider organisations that deliver a variety of healthcare services.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="daystay" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Day Stay Surgeries</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8164:2005 Day-Stay Surgery & Procedures Standard</h2> NZS 8164 is a sector standard that focuses on the needs of patients undergoing day-stay and rooms/office-based surgery and procedures. This standard is used by organisations and facilities that provide surgery and procedures, and may use a theatre or a surgical unit.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="privhosp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Private Hospitals</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8164:2005 Day-Stay Surgery & Procedures Standard</h2> NZS 8134 is the generic quality and risk management standard for the New Zealand health and disability sector. NZS 8134 is used by a wide range of services including hospitals and residential care. As a Designated Auditing Agency, Health Audit NZ Ltd audits providers against NZS 8134 for certification for the purposes of the Health and Disability Services (Safety) Act. Other providers who do not fall under the safety regime also use NZS 8134 as a certification standard. The standard is suitable for provider organisations that deliver a variety of healthcare services.
+
+                <h2>NZS 8164:2005 Day-Stay Surgery & Procedures Standard</h2> NZS 8164 is a sector standard that focuses on the needs of patients undergoing day-stay and rooms/office-based surgery and procedures. This standard is used by organisations and facilities that provide surgery and procedures, and may use a theatre or a surgical unit.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="pubhosp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Public Hospitals</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8134:2008 Health & Disability Services Standard</h2> NZS 8134 is the generic quality and risk management standard for the New Zealand health and disability sector. NZS 8134 is used by a wide range of services including hospitals and residential care. As a Designated Auditing Agency, Health Audit NZ Ltd audits providers against NZS 8134 for certification for the purposes of the Health and Disability Services (Safety) Act. Other providers who do not fall under the safety regime also use NZS 8134 as a certification standard. The standard is suitable for provider organisations that deliver a variety of healthcare services.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="accmedclinic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Accident and Medical Clinics</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8151:2004 Accident & Medical Clinic Standard</h2> NZS 8151 is one of the sector standards that are aligned with NZS 8134. NZS 8151 sets out the quality requirements for the provision of accident and medical clinic services. These services are defined as primary care services that are episodic with a no-appointments system. Health Audit NZ Ltd is approved by the Royal College of Urgent Care (RNZCUC) as a NZS 8151 auditing and certification agency. Health Audit NZ Ltd also meets the ACC accreditation requirements for this auditing and certification service.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="homebased" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Home Based Services</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8158:2012 Home & Community Support Sector Standard</h2> NZS 8158 is a sector standard for providers offering home and community support services to a wide range of people. Consumers include people with long-term support needs including physical disability, mental illness and chronic medical needs. NZS 8158 also addresses the requirements for services to people with short-term needs such as following discharge from hospital or following referral from a primary health service.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="medoffice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Medical Offices and Rooms</h4>
+            </div>
+            <div class="modal-body">
+
+                <h2>NZS 8165:2005 Office/Rooms-Based Surgery and Procedures Standard</h2> NZS 8165 is a sector standard that focuses on the needs of patients undergoing day-stay and rooms/office-based surgery and procedures. This standard is used by organisations and facilities that provide surgery and procedures, and may use a theatre or a surgical unit.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="healthauditcourse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+
+                <img src="/img/training/ha.svg" alt="" /> </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="qualitymanagement" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+
+                <img src="/img/training/qm.svg" alt="" /> </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="auditaccred" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body">
+
+                <img src="/img/training/ha.svg" alt="" /> </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+
+    </body>
+</html>

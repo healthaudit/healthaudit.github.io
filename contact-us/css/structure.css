@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: small;
+    color: white;
+    font-family: "Rambla", "Lato", Helvetica, Arial, sans-serif;
+}
+
+article,
+aside,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+video,
+object,
+output {
+    display: block;
+    color: white;
+}
+
+#container {
+    text-align: left;
+    background: none transparent;
+}
+
+#container {
+    margin: 0 auto 10px auto;
+    width: auto;
+}
+
+form.wufoo {
+    margin: 20px 14px 0 14px;
+    padding: 0 0 20px 0;
+    position: relative
+}
+
+img,
+a img {
+    border: none;
+    -ms-interpolation-mode: bicubic
+}
+
+.hide,
+.cloak div,
+.cloak span,
+.likert.cloak tbody,
+.likert.cloak thead {
+    display: none !important
+}
+
+.likert.cloak table {
+    border: none
+}
+
+input,
+textarea {
+    border-radius: 10px;
+    color: white;
+}
+
+input:focus,
+textarea:focus {
+    color: white;
+}
+
+input[type=submit] {
+    padding: 15px 15px;
+    background: #fff;
+    color: black;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Rambla", sans-serif;
+}
